@@ -1,0 +1,119 @@
+/* Sidebar container */
+.fs-container {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  padding: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Header */
+.fs-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fs-header-title {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #222;
+}
+
+.fs-reset-btn {
+  color: #007bff;
+  font-size: 0.85rem;
+  padding: 0;
+  transition: color 0.2s;
+}
+
+.fs-reset-btn:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Section titles */
+.fs-container h6 {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+/* Checkbox group (2 columns) */
+.fs-checkbox-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.form-check-label {
+  font-size: 0.9rem;
+  color: #444;
+  margin-left: 6px;
+}
+
+/* Custom checkbox styling */
+.form-check-input {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  appearance: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-check-input:checked {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.form-check-input:checked::before {
+  content: '✓';
+  color: white;
+  font-size: 12px;
+  display: block;
+  line-height: 17px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Time slot buttons */
+.fs-container .btn-outline-secondary {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  font-size: 0.9rem;
+  padding: 6px 10px;
+  transition: all 0.2s;
+}
+
+.fs-container .btn-outline-secondary:hover {
+  background-color: #e9ecef;
+  border-color: #ccc;
+  color: #222;
+}
+
+.fs-container .btn-primary {
+  font-size: 0.9rem;
+  padding: 6px 10px;
+  box-shadow: 0 2px 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Divider */
+hr {
+  border: 0;
+  height: 1px;
+  background: #eee;
+  margin: 20px 0;
+}

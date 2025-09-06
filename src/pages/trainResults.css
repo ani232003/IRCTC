@@ -1,0 +1,20 @@
+.train-card {
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.train-card h5 {
+  font-size: 1.1rem;
+}
+
+.train-card h4 {
+  font-size: 1.5rem;
+}
+
+.train-card hr {
+  margin: 0.75rem 0;
+}
+
+.train-card .badge {
+  font-size: 0.85rem;
+}
