@@ -4,6 +4,7 @@ import { onAuthStateChanged, signOut } from "firebase/auth";
 import { auth } from "../firebase";
 import { Link, useNavigate } from "react-router-dom";   
 import irctc from "../assets/irctc.png";
+import logo from "../assets/logo.webp"
 import "./header.css";
 
 const Header = () => {
@@ -97,7 +98,7 @@ const Header = () => {
           </Col>
 
           <Col md={2} className="d-flex justify-content-end">
-            <img src={irctc} alt="IRCTC Logo" className="logo" />
+            <img src={logo} alt="IRCTC Logo" className="logo" />
           </Col>
         </Row>
       </Container>
