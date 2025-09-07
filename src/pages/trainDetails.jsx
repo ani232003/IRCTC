@@ -1,7 +1,7 @@
 import React from "react";
 import { useLocation, useParams } from "react-router-dom";
 import trainsData from "../merged_trains_complete.json";
-import "./TrainDetails.css";
+import "./trainDetails.css";
 
 const TrainDetails = () => {
   const location = useLocation();
